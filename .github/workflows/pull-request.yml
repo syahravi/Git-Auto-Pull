@@ -15,4 +15,4 @@ jobs:
           user: ${{ secrets.SSH_USER }}
           pass: ${{ secrets.SSH_PASSWORD }}
           port: 22
-          command: cd /home/syahravi/Docker/tes && git pull origin master
+          command: cd /home/syahravi/Docker/tes && git pull origin main
